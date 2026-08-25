@@ -93,6 +93,7 @@ dfb=pd.concat([df,nd],axis=1)
 df
 ```
 <img width="841" height="359" alt="image" src="https://github.com/user-attachments/assets/20036d0b-9180-4ee2-aa7f-a77895157b0b" />
+
 ```
 from category_encoders import TargetEncoder
 te=TargetEncoder()
