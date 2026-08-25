@@ -155,6 +155,7 @@ df
 df.skew()
 ```
 <img width="560" height="133" alt="image" src="https://github.com/user-attachments/assets/91fbe277-c3fd-47ec-a170-dec0b7b5d7d9" />
+
 ```
 # YEO_JOHNSON
 df["Highly Negative Skew_yeojohnson"],parameters=stats.yeojohnson(df["Highly Negative Skew"])
@@ -169,6 +170,7 @@ qt=QuantileTransformer(output_distribution='normal')
 df["Moderate Negative Skew_1"]=qt.fit_transform(df[["Moderate Negative Skew"]])
 df
 ```
+
 <img width="1325" height="447" alt="image" src="https://github.com/user-attachments/assets/f5833b8c-b74b-4275-95f7-7c19fc3cbb03" />
 
 ```
